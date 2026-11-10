@@ -1,0 +1,19 @@
+{
+ "name": "s1_mis_r20_e50",
+ "scenarios": [
+  "S3"
+ ],
+ "maps": [
+  11,
+  40
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HEDAC*"
+ ],
+ "rho_out": 0.2,
+ "row": 0.5,
+ "description": "Стаття 1: чутливість HEDAC*-ε, ε = 0.5, rho_out = 0.2"
+}

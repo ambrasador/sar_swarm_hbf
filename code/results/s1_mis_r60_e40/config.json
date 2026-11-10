@@ -1,0 +1,38 @@
+{
+  "config": {
+    "name": "s1_mis_r60_e40",
+    "scenarios": [
+      "S3"
+    ],
+    "maps": [
+      11,
+      40
+    ],
+    "draws": 4,
+    "n_agents": 5,
+    "T": 300,
+    "methods": [
+      "HEDAC*"
+    ],
+    "rho_out": 0.6,
+    "row": 0.4,
+    "description": "Стаття 1: чутливість HEDAC*-ε, ε = 0.4, rho_out = 0.6"
+  },
+  "code_hash": "bf8045fbc31496c2",
+  "code_hash_base": "0fb359d0562b268a",
+  "modules": [
+    "ext_env.py"
+  ],
+  "params_hash": null,
+  "tuned_params": null,
+  "created": "2026-11-09T20:14:55",
+  "runner": "v2",
+  "env_kind": "ext",
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "os": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "host": "vm"
+}

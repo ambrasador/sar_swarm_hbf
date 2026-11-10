@@ -1,0 +1,20 @@
+{
+ "name": "s1_conf_hbf",
+ "scenarios": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "maps": [
+  11,
+  60
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HBF",
+  "HBF-fix"
+ ],
+ "description": "Стаття 1: підтвердження HBF і абляції HBF-fix на картах 11–60 (парно з conf_main)"
+}

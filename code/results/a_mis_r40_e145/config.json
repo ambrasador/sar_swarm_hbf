@@ -1,0 +1,40 @@
+{
+  "config": {
+    "name": "a_mis_r40_e145",
+    "scenarios": [
+      "S3"
+    ],
+    "maps": [
+      11,
+      40
+    ],
+    "draws": 4,
+    "n_agents": 5,
+    "T": 300,
+    "description": "Стаття A: HEDAC* і BSS-prior з рівномірною складовою eps = 0.145, rho_out = 0.4",
+    "methods": [
+      "HEDAC*",
+      "BSS-prior"
+    ],
+    "rho_out": 0.4,
+    "row": 0.145
+  },
+  "code_hash": "4b89c6de72f235f4",
+  "code_hash_base": "0fb359d0562b268a",
+  "modules": [
+    "ext_env.py",
+    "variants.py"
+  ],
+  "params_hash": null,
+  "tuned_params": null,
+  "created": "2026-11-09T13:07:19",
+  "runner": "v2",
+  "env_kind": "ext",
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "os": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "host": "vm"
+}

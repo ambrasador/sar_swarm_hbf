@@ -1,0 +1,45 @@
+{
+  "config": {
+    "name": "conf_main",
+    "description": "Підтвердження на незалежних картах 11–60 (+телеметрія BSS/SIFD)",
+    "hypotheses": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H7"
+    ],
+    "scenarios": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "maps": [
+      11,
+      60
+    ],
+    "draws": 4,
+    "methods": "all",
+    "n_agents": 5,
+    "T": 300,
+    "telemetry": true
+  },
+  "code_hash": "d49ff231ce728d1b",
+  "code_hash_base": "0fb359d0562b268a",
+  "modules": [
+    "probes.py"
+  ],
+  "params_hash": null,
+  "tuned_params": null,
+  "created": "2026-09-24T16:15:35",
+  "runner": "v2",
+  "env_kind": "base",
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "cpu_count": 4,
+  "host": "Suslik"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "sar_swarm 2.1: code and data for the HBF (hierarchical Bayesian field) method of swarm search for victims under an inaccurate prior map",
+  "upload_type": "software",
+  "version": "2.1",
+  "access_right": "open",
+  "license": "mit",
+  "language": "ukr",
+  "creators": [
+    {
+      "name": "Komisarov, Oleksandr",
+      "affiliation": "Kherson National Technical University",
+      "orcid": "0009-0004-5571-8842"
+    },
+    {
+      "name": "Khokhlov, Vadym",
+      "affiliation": "Kherson National Technical University",
+      "orcid": "0009-0005-4121-3306"
+    }
+  ],
+  "description": "<p>Python simulation package sar_swarm (version 2.1) with the HBF method (hierarchical Bayesian potential field) for coordinating a UAV swarm searching for victims when an unknown share of victims lies outside the prior probability map. Includes the development scripts and logs (maps 100–159), the pre-registered confirmatory protocol with its SHA-256 checksum, configurations, run logs (runs.jsonl) of all confirmatory experiments (maps 11–60), the statistical analysis, correctness tests and figures.</p><p>Програмний пакет sar_swarm 2.1 з методом HBF, скрипти й журнали розроблення, протокол підтверджувальної перевірки, журнали всіх прогонів, статистичний аналіз, тести й рисунки до рукопису «Ієрархічний байєсівський метод ройового пошуку постраждалих за неточної апріорної карти».</p>",
+  "keywords": [
+    "swarm intelligence",
+    "search and rescue",
+    "UAV",
+    "Bayesian search",
+    "potential field",
+    "HEDAC",
+    "prior map",
+    "survival-weighted score"
+  ]
+}

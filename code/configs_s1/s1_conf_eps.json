@@ -1,0 +1,20 @@
+{
+ "name": "s1_conf_eps",
+ "scenarios": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "maps": [
+  11,
+  60
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HEDAC*"
+ ],
+ "row": 0.2,
+ "description": "Стаття 1: конкурент HEDAC*-ε*, ε* = 0.2, карти 11–60"
+}

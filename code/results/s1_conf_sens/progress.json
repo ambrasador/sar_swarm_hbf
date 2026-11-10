@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_conf_sens",
+  "done": 1600,
+  "total": 1600,
+  "percent": 100.0,
+  "session_runs": 1600,
+  "runs_per_min": 226.5,
+  "eta_min": 0.0,
+  "last": "s1_conf_sens|S2|m60|v3|HBFs:F2-w30",
+  "updated": "2026-11-09T19:47:45"
+}

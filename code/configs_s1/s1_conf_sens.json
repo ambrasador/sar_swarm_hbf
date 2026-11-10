@@ -1,0 +1,21 @@
+{
+ "name": "s1_conf_sens",
+ "scenarios": [
+  "S1",
+  "S2"
+ ],
+ "maps": [
+  11,
+  60
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HBFs:FG3-w30",
+  "HBFs:FG3-w70",
+  "HBFs:FG5-w50",
+  "HBFs:F2-w30"
+ ],
+ "description": "Стаття 1: чутливість HBF до апріорного налаштування, S1–S2"
+}

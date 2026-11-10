@@ -1,0 +1,19 @@
+{
+ "name": "s1_verify",
+ "scenarios": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "maps": [
+  11,
+  15
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HEDAC*"
+ ],
+ "description": "Стаття 1: контроль відтворюваності HEDAC* (має побітово збігтися з архівом conf_main)"
+}

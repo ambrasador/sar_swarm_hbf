@@ -1,0 +1,19 @@
+{
+ "name": "s1_conf_e50",
+ "scenarios": [
+  "S1",
+  "S2"
+ ],
+ "maps": [
+  11,
+  60
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HEDAC*"
+ ],
+ "row": 0.5,
+ "description": "Стаття 1: чутливість HEDAC*-ε, ε = 0.5, S1–S2"
+}

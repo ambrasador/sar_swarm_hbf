@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_verify",
+  "done": 60,
+  "total": 60,
+  "percent": 100.0,
+  "session_runs": 60,
+  "runs_per_min": 144.8,
+  "eta_min": 0.0,
+  "last": "s1_verify|S3|m15|v3|HEDAC*",
+  "updated": "2026-11-09T19:30:12"
+}

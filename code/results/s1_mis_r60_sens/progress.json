@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_mis_r60_sens",
+  "done": 480,
+  "total": 480,
+  "percent": 100.0,
+  "session_runs": 480,
+  "runs_per_min": 231.5,
+  "eta_min": 0.0,
+  "last": "s1_mis_r60_sens|S3|m40|v3|HBFs:F2-w30",
+  "updated": "2026-11-09T20:01:22"
+}

@@ -1,0 +1,36 @@
+{
+  "config": {
+    "name": "s1_verify",
+    "scenarios": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "maps": [
+      11,
+      15
+    ],
+    "draws": 4,
+    "n_agents": 5,
+    "T": 300,
+    "methods": [
+      "HEDAC*"
+    ],
+    "description": "Стаття 1: контроль відтворюваності HEDAC* (має побітово збігтися з архівом conf_main)"
+  },
+  "code_hash": "0fb359d0562b268a",
+  "code_hash_base": "0fb359d0562b268a",
+  "modules": [],
+  "params_hash": null,
+  "tuned_params": null,
+  "created": "2026-11-09T19:29:47",
+  "runner": "v2",
+  "env_kind": "base",
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "os": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "host": "vm"
+}

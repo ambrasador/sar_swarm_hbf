@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_conf_e10",
+  "done": 400,
+  "total": 400,
+  "percent": 100.0,
+  "session_runs": 400,
+  "runs_per_min": 152.5,
+  "eta_min": 0.0,
+  "last": "s1_conf_e10|S2|m59|v3|HEDAC*",
+  "updated": "2026-11-09T20:07:25"
+}

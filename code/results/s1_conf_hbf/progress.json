@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_conf_hbf",
+  "done": 1200,
+  "total": 1200,
+  "percent": 100.0,
+  "session_runs": 1200,
+  "runs_per_min": 184.3,
+  "eta_min": 0.0,
+  "last": "s1_conf_hbf|S3|m60|v3|HBF-fix",
+  "updated": "2026-11-09T19:36:43"
+}

@@ -1,0 +1,11 @@
+{
+  "experiment": "s1_mis_r40_e40",
+  "done": 120,
+  "total": 120,
+  "percent": 100.0,
+  "session_runs": 120,
+  "runs_per_min": 158.1,
+  "eta_min": 0.0,
+  "last": "s1_mis_r40_e40|S3|m40|v3|HEDAC*",
+  "updated": "2026-11-09T20:14:55"
+}

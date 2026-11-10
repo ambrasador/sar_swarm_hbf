@@ -1,0 +1,3 @@
+[2026-11-09T19:59:18] Старт: s1_mis_r60_sens | виконано 0/480 | залишилось 480 | workers=2 | code=ce1ba89a43f9efda | модулі: ext_env.py, hbf.py, variants.py, variants_s1.py
+[2026-11-09T20:01:22] Усі 480 прогонів записано в runs.jsonl; експорт results.csv і cpos_curves.npz...
+[2026-11-09T20:01:23] Експеримент завершено: 480 прогонів. Експорт: results.csv, cpos_curves.npz

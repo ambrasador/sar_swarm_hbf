@@ -1,0 +1,21 @@
+{
+ "name": "s1_mis_r40_sens",
+ "scenarios": [
+  "S3"
+ ],
+ "maps": [
+  11,
+  40
+ ],
+ "draws": 4,
+ "n_agents": 5,
+ "T": 300,
+ "methods": [
+  "HBFs:FG3-w30",
+  "HBFs:FG3-w70",
+  "HBFs:FG5-w50",
+  "HBFs:F2-w30"
+ ],
+ "rho_out": 0.4,
+ "description": "Стаття 1: чутливість HBF, rho_out = 0.4"
+}

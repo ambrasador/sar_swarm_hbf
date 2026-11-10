@@ -1,0 +1,11 @@
+{
+  "experiment": "a_mis_r40_e145",
+  "done": 240,
+  "total": 240,
+  "percent": 100.0,
+  "session_runs": 240,
+  "runs_per_min": 242.7,
+  "eta_min": 0.0,
+  "last": "a_mis_r40_e145|S3|m40|v3|BSS-prior",
+  "updated": "2026-11-09T13:08:19"
+}
