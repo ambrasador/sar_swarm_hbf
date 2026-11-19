@@ -1,0 +1,66 @@
+{
+ "exps": [
+  "s4_conf_mis"
+ ],
+ "methods": {
+  "HEDAC*": "s4_conf_mis:HEDAC*",
+  "EPS": "s4_conf_mis:HEDAC*-eps*",
+  "HBFU": "s4_conf_mis:HBF-U",
+  "HBFS": "s4_conf_mis:HBF-S",
+  "FIX": "s4_conf_mis:HBF-S-fix",
+  "ORACLE": "s4_conf_mis:ORACLE"
+ },
+ "groups": {
+  "M40": "M",
+  "M80": "M",
+  "N40": "N",
+  "N80": "N"
+ },
+ "conds": [
+  "M40",
+  "M80",
+  "N40",
+  "N80"
+ ],
+ "pairs": [
+  [
+   "HBFS",
+   "EPS"
+  ],
+  [
+   "HBFS",
+   "HBFU"
+  ],
+  [
+   "HBFS",
+   "FIX"
+  ],
+  [
+   "HBFS",
+   "HEDAC*"
+  ],
+  [
+   "EPS",
+   "HEDAC*"
+  ]
+ ],
+ "family": [
+  [
+   "HBFS",
+   "EPS"
+  ],
+  [
+   "HBFS",
+   "HEDAC*"
+  ],
+  [
+   "HBFS",
+   "HBFU"
+  ]
+ ],
+ "oracle": {
+  "oracle": "ORACLE",
+  "method": "HBFS",
+  "ref": "EPS"
+ }
+}

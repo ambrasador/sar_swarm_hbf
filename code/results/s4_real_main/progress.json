@@ -1,0 +1,11 @@
+{
+  "experiment": "s4_real_main",
+  "done": 1872,
+  "total": 1872,
+  "percent": 100.0,
+  "session_runs": 1872,
+  "runs_per_min": 413.0,
+  "eta_min": 0.0,
+  "last": "s4_real_main|S3|m99|v3|HBF-fix",
+  "updated": "2026-11-10T09:51:24"
+}

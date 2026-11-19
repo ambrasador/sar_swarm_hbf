@@ -1,7 +1,7 @@
 {
-  "title": "sar_swarm 2.1: code and data for the HBF (hierarchical Bayesian field) method of swarm search for victims under an inaccurate prior map",
+  "title": "sar_swarm 2.2: code and data for the HBF (hierarchical Bayesian field) method of swarm search for victims under an inaccurate prior map",
   "upload_type": "software",
-  "version": "2.1",
+  "version": "2.2",
   "access_right": "open",
   "license": "mit",
   "language": "ukr",
@@ -17,7 +17,8 @@
       "orcid": "0009-0005-4121-3306"
     }
   ],
-  "description": "<p>Python simulation package sar_swarm (version 2.1) with the HBF method (hierarchical Bayesian potential field) for coordinating a UAV swarm searching for victims when an unknown share of victims lies outside the prior probability map. Includes the development scripts and logs (maps 100–159), the pre-registered confirmatory protocol with its SHA-256 checksum, configurations, run logs (runs.jsonl) of all confirmatory experiments (maps 11–60), the statistical analysis, correctness tests and figures.</p><p>Програмний пакет sar_swarm 2.1 з методом HBF, скрипти й журнали розроблення, протокол підтверджувальної перевірки, журнали всіх прогонів, статистичний аналіз, тести й рисунки до рукопису «Ієрархічний байєсівський метод ройового пошуку постраждалих за неточної апріорної карти».</p>",
+  "description": "<p>Python simulation package sar_swarm (version 2.2) with the HBF method (hierarchical Bayesian potential field) for coordinating a UAV swarm searching for victims when the reliability of the prior probability map is unknown. Version 2.1 contained the development scripts and logs (maps 100–159), the pre-registered confirmatory protocol S1 with its SHA-256 checksum and the run logs of all confirmatory experiments (maps 11–60). Version 2.2 adds the extension: structured map error S4 and the HBF-S method (protocol S4, development on maps 100–139, confirmation on maps 61–99), the N_v series, a real-terrain map rasterised from OpenStreetMap data (Carpathians), and the ground truth outside the hypothesis class S4-M (protocol S4M, maps 160–199), with run logs (runs.jsonl), statistical analyses, correctness tests and figures 1–4. Negative results are reported as obtained.</p><p>Code and run logs: MIT licence. Map data in code/realmaps/karpaty: © OpenStreetMap contributors, Open Database License (ODbL) 1.0; the MIT licence does not apply to these data.</p><p>Програмний пакет sar_swarm 2.2 з методами HBF і HBF-S: скрипти й журнали розроблення, протоколи підтверджувальних перевірок S1, S4 і S4M, журнали всіх прогонів, статистичний аналіз, тести й рисунки до рукопису «Ієрархічний байєсівський метод ройового пошуку постраждалих за невідомої надійності апріорної карти».</p>",
+  "notes": "Map data in code/realmaps/karpaty: © OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright).",
   "keywords": [
     "swarm intelligence",
     "search and rescue",
@@ -26,6 +27,8 @@
     "potential field",
     "HEDAC",
     "prior map",
-    "survival-weighted score"
+    "survival-weighted score",
+    "pre-registration",
+    "OpenStreetMap"
   ]
 }

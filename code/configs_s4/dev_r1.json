@@ -1,0 +1,258 @@
+{
+ "name": "s4_dev_r1",
+ "conds": [
+  "A0",
+  "A40",
+  "A80",
+  "B0",
+  "B40",
+  "B80"
+ ],
+ "maps": [
+  100,
+  119
+ ],
+ "draws": 2,
+ "methods": {
+  "HEDAC*": {
+   "cls": "HEDAC"
+  },
+  "HEDAC*|e10": {
+   "cls": "HEDAC",
+   "row": 0.1
+  },
+  "HEDAC*|e20": {
+   "cls": "HEDAC",
+   "row": 0.2
+  },
+  "HEDAC*|e30": {
+   "cls": "HEDAC",
+   "row": 0.3
+  },
+  "HEDAC*|e40": {
+   "cls": "HEDAC",
+   "row": 0.4
+  },
+  "HEDAC*|e50": {
+   "cls": "HEDAC",
+   "row": 0.5
+  },
+  "HEDAC*|e60": {
+   "cls": "HEDAC",
+   "row": 0.6
+  },
+  "HBF-U": {
+   "cls": "HBF",
+   "params": {
+    "rhos": [
+     0.05,
+     0.3,
+     0.8
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "BSS": {
+   "cls": "BSS"
+  },
+  "ORACLE": {
+   "cls": "ORACLE"
+  },
+  "HS:r50-w50-b1-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.5
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HS:r50-w50-b1-n": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.5
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HS:r50-w70-b1-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.5
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 1.0
+   }
+  },
+  "HS:r50-w70-b1-n": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.5
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 1.0
+   }
+  },
+  "HS:r80-w50-b1-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HS:r80-w50-b1-n": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HS:r80-w70-b1-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 1.0
+   }
+  },
+  "HS:r80-w70-b1-n": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 1.0
+   }
+  },
+  "HS:r80-w50-b2-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 2.0
+   }
+  },
+  "HS:r50-w50-b2-u": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.5
+     ],
+     [
+      "u",
+      0.8
+     ]
+    ],
+    "w_rest": 0.5,
+    "beta": 2.0
+   }
+  }
+ },
+ "description": "S4, розроблення, раунд 1: карти 100–119, 2 розстановки"
+}

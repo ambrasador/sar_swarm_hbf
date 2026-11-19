@@ -1,0 +1,59 @@
+{
+ "exps": [
+  "s4_real_main",
+  "s4_real_eps"
+ ],
+ "methods": {
+  "HEDAC*": "s4_real_main:HEDAC*",
+  "EPS": "s4_real_eps:HEDAC*",
+  "BSS": "s4_real_main:BSS",
+  "HBF": "s4_real_main:HBF",
+  "HBFfix": "s4_real_main:HBF-fix"
+ },
+ "groups": {
+  "S1": "S1",
+  "S2": "S2",
+  "S3": "S3"
+ },
+ "conds": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "pairs": [
+  [
+   "HBF",
+   "EPS"
+  ],
+  [
+   "HBF",
+   "HEDAC*"
+  ],
+  [
+   "HBF",
+   "HBFfix"
+  ],
+  [
+   "HBF",
+   "BSS"
+  ]
+ ],
+ "family": [
+  [
+   "HBF",
+   "EPS"
+  ],
+  [
+   "HBF",
+   "HEDAC*"
+  ],
+  [
+   "HBF",
+   "HBFfix"
+  ],
+  [
+   "HBF",
+   "BSS"
+  ]
+ ]
+}

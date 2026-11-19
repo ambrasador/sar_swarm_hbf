@@ -1,0 +1,23 @@
+{
+  "name": "karpaty",
+  "center": [
+    48.16,
+    24.5
+  ],
+  "km": 5.0,
+  "size": 100,
+  "cell_m": 50.0,
+  "bbox": [
+    48.137383752487786,
+    24.466332828347962,
+    48.18261624751221,
+    24.533667171652038
+  ],
+  "base": null,
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "fetched_at": "2026-09-25T13:38:21",
+  "sha256": "6d830e4fbc45298f0e5940cb834e2ddc30e53a2057a4b366c3c985de3481d524",
+  "elements": 32519,
+  "query": "[out:json][timeout:240];\n(\n  way[\"natural\"~\"^(wood|scrub|heath|water|wetland|grassland|bare_rock|scree)$\"](48.137384,24.466333,48.182616,24.533667);\n  relation[\"natural\"~\"^(wood|scrub|heath|water|wetland)$\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"landuse\"~\"^(forest|meadow|farmland|grass|residential|reservoir|basin|orchard|vineyard|allotments|industrial|quarry)$\"](48.137384,24.466333,48.182616,24.533667);\n  relation[\"landuse\"~\"^(forest|reservoir|basin|meadow)$\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"waterway\"~\"^(river|stream|canal|ditch|drain|riverbank)$\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"highway\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"building\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"power\"=\"line\"](48.137384,24.466333,48.182616,24.533667);\n  way[\"aeroway\"=\"aerodrome\"](48.137384,24.466333,48.182616,24.533667);\n);\nout body;\n>;\nout skel qt;\n",
+  "attribution": "© OpenStreetMap contributors, ODbL — https://www.openstreetmap.org/copyright"
+}

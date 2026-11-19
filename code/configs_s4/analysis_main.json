@@ -1,0 +1,89 @@
+{
+ "exps": [
+  "s4_conf_main"
+ ],
+ "methods": {
+  "HEDAC*": "s4_conf_main:HEDAC*",
+  "EPS": "s4_conf_main:HEDAC*-eps*",
+  "HBFU": "s4_conf_main:HBF-U",
+  "HBFS": "s4_conf_main:HBF-S",
+  "FIX": "s4_conf_main:HBF-S-fix",
+  "BSS": "s4_conf_main:BSS",
+  "ORACLE": "s4_conf_main:ORACLE"
+ },
+ "groups": {
+  "A0": "A",
+  "A40": "A",
+  "A80": "A",
+  "B0": "B",
+  "B40": "B",
+  "B80": "B"
+ },
+ "conds": [
+  "A0",
+  "A40",
+  "A80",
+  "B0",
+  "B40",
+  "B80"
+ ],
+ "pairs": [
+  [
+   "HBFS",
+   "EPS"
+  ],
+  [
+   "HBFS",
+   "HBFU"
+  ],
+  [
+   "HBFS",
+   "FIX"
+  ],
+  [
+   "HBFS",
+   "HEDAC*"
+  ],
+  [
+   "HBFS",
+   "BSS"
+  ],
+  [
+   "EPS",
+   "HEDAC*"
+  ]
+ ],
+ "family": [
+  [
+   "HBFS",
+   "EPS"
+  ],
+  [
+   "HBFS",
+   "HBFU"
+  ],
+  [
+   "HBFS",
+   "FIX"
+  ],
+  [
+   "HBFS",
+   "HEDAC*"
+  ]
+ ],
+ "cost": {
+  "pair": [
+   "HBFS",
+   "HEDAC*"
+  ],
+  "conds": [
+   "A0",
+   "B0"
+  ]
+ },
+ "oracle": {
+  "oracle": "ORACLE",
+  "method": "HBFS",
+  "ref": "EPS"
+ }
+}

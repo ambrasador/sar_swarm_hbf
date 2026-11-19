@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Store every file byte for byte (no line-ending conversion),
+# so that the SHA-256 checksums of the protocols and logs stay valid after cloning.
+* -text

@@ -1,9 +1,6 @@
 __pycache__/
 *.pyc
 *.docx
-stattia1.zip
+*.zip
+*.tar.gz
 article_src/
-*.md
-!README.md
-!code/PROTOCOL_S1.md
-!code/dev/STAGE2_RULE.md

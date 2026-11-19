@@ -1,0 +1,45 @@
+{
+  "config": {
+    "name": "s4_real_eps",
+    "methods": [
+      "HEDAC*"
+    ],
+    "row": 0.2,
+    "description": "Стаття 1, реальна місцевість: HEDAC*-ε*, ε* = 0.2",
+    "scenarios": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "maps": [
+      61,
+      99
+    ],
+    "draws": 4,
+    "n_agents": 5,
+    "T": 300,
+    "realmap": {
+      "name": "karpaty",
+      "sha256": "6d830e4fbc45298f0e5940cb834e2ddc30e53a2057a4b366c3c985de3481d524"
+    }
+  },
+  "code_hash": "847aa029a5e3c26a",
+  "code_hash_base": "0fb359d0562b268a",
+  "modules": [
+    "ext_env.py",
+    "gridscale.py",
+    "realmap.py"
+  ],
+  "params_hash": null,
+  "tuned_params": null,
+  "created": "2026-11-10T09:51:25",
+  "runner": "v2",
+  "env_kind": "ext",
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "os": "Linux-6.18.44-fc-v338-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "host": "vm"
+}

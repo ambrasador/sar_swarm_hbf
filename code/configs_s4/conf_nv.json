@@ -1,0 +1,48 @@
+{
+ "name": "s4_conf_nv",
+ "conds": [
+  "U40n3",
+  "U40n8",
+  "U80n3",
+  "U80n8"
+ ],
+ "maps": [
+  61,
+  99
+ ],
+ "draws": 4,
+ "methods": {
+  "HEDAC*": {
+   "cls": "HEDAC"
+  },
+  "HEDAC*|e20": {
+   "cls": "HEDAC",
+   "row": 0.2
+  },
+  "HBF": {
+   "cls": "HBF",
+   "params": {
+    "rhos": [
+     0.05,
+     0.3,
+     0.8
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HBF-fix": {
+   "cls": "HBF",
+   "params": {
+    "rhos": [
+     0.05,
+     0.3,
+     0.8
+    ],
+    "w_rest": 0.5,
+    "beta": 0.0
+   }
+  }
+ },
+ "description": "Стаття 1, підтвердження: серія N_v (3 і 8), S3-геометрія, ρ = 0,4 і 0,8, карти 61–99"
+}

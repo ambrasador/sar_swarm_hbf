@@ -1,0 +1,65 @@
+{
+ "exps": [
+  "s4_conf_nv"
+ ],
+ "methods": {
+  "HEDAC*": "s4_conf_nv:HEDAC*",
+  "EPS20": "s4_conf_nv:HEDAC*|e20",
+  "HBF": "s4_conf_nv:HBF",
+  "HBFfix": "s4_conf_nv:HBF-fix"
+ },
+ "groups": {
+  "U40n3": "U",
+  "U40n8": "U",
+  "U80n3": "U",
+  "U80n8": "U"
+ },
+ "conds": [
+  "U40n3",
+  "U40n8",
+  "U80n3",
+  "U80n8"
+ ],
+ "pairs": [
+  [
+   "HBF",
+   "EPS20"
+  ],
+  [
+   "HBF",
+   "HEDAC*"
+  ],
+  [
+   "HBF",
+   "HBFfix"
+  ]
+ ],
+ "family": [
+  [
+   "HBF",
+   "HBFfix"
+  ]
+ ],
+ "nv": {
+  "pairs": [
+   [
+    "U40n8",
+    "U40n3"
+   ],
+   [
+    "U80n8",
+    "U80n3"
+   ]
+  ],
+  "gains": [
+   [
+    "HBF",
+    "HBFfix"
+   ],
+   [
+    "HBF",
+    "EPS20"
+   ]
+  ]
+ }
+}

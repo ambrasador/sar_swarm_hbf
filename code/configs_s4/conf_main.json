@@ -1,0 +1,78 @@
+{
+ "name": "s4_conf_main",
+ "conds": [
+  "A0",
+  "A40",
+  "A80",
+  "B0",
+  "B40",
+  "B80"
+ ],
+ "maps": [
+  61,
+  99
+ ],
+ "draws": 4,
+ "methods": {
+  "HEDAC*": {
+   "cls": "HEDAC"
+  },
+  "HEDAC*-eps*": {
+   "cls": "HEDAC",
+   "row": 0.1
+  },
+  "HBF-U": {
+   "cls": "HBF",
+   "params": {
+    "rhos": [
+     0.05,
+     0.3,
+     0.8
+    ],
+    "w_rest": 0.5,
+    "beta": 1.0
+   }
+  },
+  "HBF-S": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 1.0
+   }
+  },
+  "HBF-S-fix": {
+   "cls": "HBFS",
+   "params": {
+    "spec": [
+     [
+      "u",
+      0.05
+     ],
+     [
+      "S",
+      0.8
+     ]
+    ],
+    "w_rest": 0.7,
+    "beta": 0.0
+   }
+  },
+  "BSS": {
+   "cls": "BSS"
+  },
+  "ORACLE": {
+   "cls": "ORACLE"
+  }
+ },
+ "description": "Стаття 1, підтвердження S4: карти 61–99, 4 розстановки"
+}
